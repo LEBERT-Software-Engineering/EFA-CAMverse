@@ -21,7 +21,9 @@
 
 > **Neu:** Aus Gerber X/X2 + Koordinaten wird Gerber X3 (für die Bestückung) → [mehr dazu](#gerber-x3)
 
-## Download
+<br>
+
+<h2 align="center">Download</h2>
 
 <p align="center">
   <a href="https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest"><img alt="EFA CAMverse 2026 herunterladen" src="https://img.shields.io/badge/Download-EFA%20CAMverse%202026%20f%C3%BCr%20Windows-1e5aa8?style=for-the-badge"></a>
@@ -56,7 +58,11 @@ Get-FileHash .\EFA_CAMverse_2026_Setup_x64.exe -Algorithm SHA256
 Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 </details>
 
-## Unterstützte Formate
+<br>
+
+<h2 align="center">Unterstützte Formate</h2>
+
+<p align="center"><b>Ein Viewer für alle PCB/CAM-Formate.</b> EFA CAMverse liest jedes Format nativ – von der Konstruktion bis zur Fertigungsprüfung, ohne Konvertierung und ohne Cloud.</p>
 
 <p align="center">
   <picture>
@@ -64,8 +70,6 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
     <img src="assets/formats_strip_light.png" width="100%" alt="Unterstützte Formate: Gerber X/X2/X3, EAGLE, ODB++, IPC-2581, GenCAD 1.4, IPC-D-356, DXF, PADS Layout, KiCad">
   </picture>
 </p>
-
-Ein Viewer für alle PCB/CAM-Formate – von der Konstruktion bis zur Fertigungsprüfung. EFA CAMverse liest jedes Format nativ, ohne Konvertierung und ohne Cloud.
 
 <details>
 <summary><b>Dateitypen und Details</b></summary>
@@ -85,10 +89,13 @@ Ein Viewer für alle PCB/CAM-Formate – von der Konstruktion bis zur Fertigungs
 
 </details>
 
-<a id="gerber-x3"></a>
-## Gerber X/X2 + Koordinaten = Gerber X3 (Bestückung)
+<br>
 
-*Neu – für EMS-Dienstleister.* Der EMS-Alltag: Der Kunde liefert klassische Gerber-Daten ohne Bauteilinformation – und irgendeine Pick-&-Place-Datei. EFA CAMverse führt beides zusammen und ergänzt die komplette Bauteilebene, wie man sie sonst nur von Gerber X3 kennt.
+<a id="gerber-x3"></a>
+<p align="center"><sub><b>NEU · FÜR EMS-DIENSTLEISTER</b></sub></p>
+<h2 align="center">Gerber X/X2 + Koordinaten = Gerber X3 (Bestückung)</h2>
+
+**Der EMS-Alltag:** Der Kunde liefert klassische Gerber-Daten ohne Bauteilinformation – und irgendeine Pick-&-Place-Datei. EFA CAMverse führt beides zusammen und ergänzt die komplette Bauteilebene, wie man sie sonst nur von Gerber X3 kennt.
 
 <p align="center">
   <img src="assets/x3_equation.png" width="100%" alt="Gerber-X/X2-Lagen (.gbr) plus Koordinatendatei (.csv/.txt) ergeben eine bestückte Leiterkarte – Gerber X3 (für die Bestückung)">
@@ -99,21 +106,34 @@ Ein Viewer für alle PCB/CAM-Formate – von der Konstruktion bis zur Fertigungs
 - **Nachvollziehbar statt Blackbox:** Ein Bericht zeigt nach jedem Lauf, welche Bauteile sicher zugeordnet sind und welche nicht. Sitzt eines falsch, setzen Sie es mit zwei Klicks im Bild an die richtige Stelle.
 - **Ab jetzt wie echtes X3:** Bestückungsansichten, Varianten, Stückliste und 3D stehen zur Verfügung, als hätte der Datensatz seine Bauteile immer gekannt. Die geprüften Koordinaten geben Sie als CSV aus – für die Maschinenprogrammierung oder zurück an den Kunden.
 
-## Funktionen – Sehen. Prüfen. Fertigen.
+<br>
 
-Ein einheitlicher Funktionssatz über alle Formate – statt für jedes Format ein anderes Werkzeug.
+<h2 align="center">Funktionen</h2>
 
-- <img src="assets/feat_layers.png" width="22" alt="" valign="middle"> &nbsp;**Lagen & Stackup** – alle Lagen einzeln schalten, Transparenz regeln und den kompletten Materialaufbau im Stackup-Pane lesen.
-- <img src="assets/feat_3d.png" width="22" alt="" valign="middle"> &nbsp;**3D-Ansicht** – die Leiterkarte räumlich betrachten, mit Bauteilen als 3D-Körper; frei drehen und zoomen.
-- <img src="assets/feat_netlist.png" width="22" alt="" valign="middle"> &nbsp;**Bohrungen & Netze** – Bohrtabellen, Netzlisten-Pane und bidirektionales Highlight; per Doppelklick zum Netz zoomen.
-- <img src="assets/feat_components.png" width="22" alt="" valign="middle"> &nbsp;**Bestückung & Varianten** – Bestückungsansichten flexibel erstellen; Bauteile passend zur Kundenvariante per Klick ein- und ausblenden, Beschriftung frei wählbar.
-- <img src="assets/feat_x3.png" width="22" alt="" valign="middle"> &nbsp;**Gerber X/X2 + Koordinaten = X3** – klassische Gerber-Daten um externe Koordinatendaten ergänzen; EFA CAMverse führt beides zu Gerber X3 (für die Bestückung) zusammen.
-- <img src="assets/feat_exportfile.png" width="22" alt="" valign="middle"> &nbsp;**Export & Fertigen** – für die Fertigung exportieren: Bilder als PDF, PNG oder JPG, Koordinaten und BoM als CSV.
-- <img src="assets/feat_measure.png" width="22" alt="" valign="middle"> &nbsp;**Messen & Inspizieren** – präzise Abstands- und Geometriemessung, mit Hüllrechteck und Mittelpunkt jeder Komponente.
-- <img src="assets/feat_export.png" width="22" alt="" valign="middle"> &nbsp;**Formate wandeln & GenCAD** – eingelesene Daten als GenCAD 1.4 weitergeben; echte Konvertierung, nicht nur Anzeige.
-- <img src="assets/feat_offline.png" width="22" alt="" valign="middle"> &nbsp;**Offline & nativ** – native Windows-Anwendung; keine Cloud, kein Upload. Ihre Fertigungsdaten bleiben lokal.
+<p align="center"><b>Sehen. Prüfen. Fertigen.</b> Ein einheitlicher Funktionssatz über alle Formate – statt für jedes Format ein anderes Werkzeug.</p>
 
-## Bestückdruck & Varianten
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_layers.png" width="48" alt=""><br><br><b>Lagen &amp; Stackup</b><br>Alle Lagen einzeln schalten, Transparenz regeln und den kompletten Materialaufbau im Stackup-Pane lesen.<br><br></td>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_3d.png" width="48" alt=""><br><br><b>3D-Ansicht</b><br>Die Leiterkarte räumlich betrachten – mit Bauteilen als 3D-Körper, frei drehen und zoomen.<br><br></td>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_netlist.png" width="48" alt=""><br><br><b>Bohrungen &amp; Netze</b><br>Bohrtabellen, Netzlisten-Pane und bidirektionales Highlight – per Doppelklick zum Netz zoomen.<br><br></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><br><img src="assets/feat_components.png" width="48" alt=""><br><br><b>Bestückung &amp; Varianten</b><br>Bestückungsansichten flexibel erstellen – Bauteile passend zur Kundenvariante per Klick ein- und ausblenden, Beschriftung frei wählbar.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_x3.png" width="48" alt=""><br><br><b>Gerber X/X2 + Koordinaten = X3</b><br>Klassische Gerber-Daten um externe Koordinatendaten ergänzen – EFA CAMverse führt beides zu Gerber X3 (für die Bestückung) zusammen.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_exportfile.png" width="48" alt=""><br><br><b>Export &amp; Fertigen</b><br>Für die Fertigung exportieren: Bilder als PDF, PNG oder JPG, Koordinaten und BoM als CSV.<br><br></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><br><img src="assets/feat_measure.png" width="48" alt=""><br><br><b>Messen &amp; Inspizieren</b><br>Präzise Abstands- und Geometriemessung – mit Hüllrechteck und Mittelpunkt jeder Komponente.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_export.png" width="48" alt=""><br><br><b>Formate wandeln &amp; GenCAD</b><br>Eingelesene Daten als GenCAD 1.4 weitergeben – echte Konvertierung, nicht nur Anzeige.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_offline.png" width="48" alt=""><br><br><b>Offline &amp; nativ</b><br>Native Windows-Anwendung – keine Cloud, kein Upload. Ihre Fertigungsdaten bleiben lokal.<br><br></td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center"><sub><b>NEU · BESTÜCKDRUCK &amp; VARIANTEN</b></sub></p>
+<h2 align="center">Bestückdruck &amp; Varianten</h2>
 
 **Bestückdruck selbst erzeugen – so, wie die Fertigung ihn braucht.** EFA CAMverse zeigt keinen gelieferten Bestückplan an, sondern zeichnet ihn aus den Daten selbst – Bauteil für Bauteil. Genau deshalb lässt sich die Variante Ihres Kunden wirklich abbilden: Was nicht bestückt wird, erscheint gar nicht erst.
 
@@ -130,7 +150,10 @@ Ein einheitlicher Funktionssatz über alle Formate – statt für jedes Format e
 - **Beide Seiten:** Ober- und Unterseite als jeweils eigene Bestückungsansicht.
 - **Ausgabe:** Bestückplan, Koordinatendaten und Stückliste für die Fertigung exportieren.
 
-## 3D-Ansicht
+<br>
+
+<p align="center"><sub><b>NEU · 3D-ANSICHT</b></sub></p>
+<h2 align="center">3D-Ansicht</h2>
 
 **Die Leiterkarte in 3D – interaktiv und realistisch.** Ein Klick wechselt von der Lagenansicht in die räumliche Darstellung: Leiterkarte, Oberflächen und Bauteile als echtes 3D-Modell – frei dreh- und zoombar.
 
@@ -145,9 +168,11 @@ Ein einheitlicher Funktionssatz über alle Formate – statt für jedes Format e
 
 Das optionale **3D-Modellpaket** (KiCad-3D-Bibliotheksmodelle im VRML-Format, CC-BY-SA 4.0) wird als eigenes [Release](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/3dmodels-9.0.0) veröffentlicht; EFA CAMverse lädt und installiert es aus der Anwendung heraus.
 
-## Warum EFA CAMverse
+<br>
 
-**9 PCB/CAM-Formate. Eine Anwendung. Ein Workflow.** Ein vertrautes Bedienkonzept für jedes Format: einmal einarbeiten, dann Gerber, ODB++, KiCad und sechs weitere Formate gleich bedienen – in einer einzigen Anwendung.
+<h2 align="center">Warum EFA CAMverse</h2>
+
+<p align="center"><b>9 PCB/CAM-Formate. Eine Anwendung. Ein Workflow.</b> Ein vertrautes Bedienkonzept für jedes Format: einmal einarbeiten, dann Gerber, ODB++, KiCad und sechs weitere Formate gleich bedienen.</p>
 
 - **Ein Bedienkonzept für alles** – einmal einarbeiten, dann jedes Format identisch bedienen: Lagen, Stackup, Messen und Export funktionieren überall gleich.
 - **Direkt nativ, ohne Umwege** – jedes Format ohne Zwischenkonvertierung öffnen und sofort arbeiten; kein Export-Import-Hin-und-Her zwischen Programmen.
@@ -155,30 +180,38 @@ Das optionale **3D-Modellpaket** (KiCad-3D-Bibliotheksmodelle im VRML-Format, CC
 - **Brücke zwischen Formaten** – aus jedem der 9 PCB/CAM-Formate lesen und als GenCAD 1.4 weitergeben; EFA CAMverse verbindet, was sonst getrennt bleibt.
 - **Eine Installation, ein Update** – eine Anwendung statt vieler Einzeltools pflegen: ein Update, ein Ansprechpartner, alles lokal.
 
-## Viewer kostenlos & Pro-Funktionen
+<br>
 
-EFA CAMverse ist als Viewer kostenlos nutzbar – höherwertige Funktionen schalten Sie bei Bedarf frei. **Pro-Funktionen:**
+<h2 align="center">Viewer kostenlos &amp; Pro-Funktionen</h2>
+
+<p align="center">EFA CAMverse ist als Viewer kostenlos nutzbar – höherwertige Funktionen schalten Sie bei Bedarf frei.</p>
+
+**Pro-Funktionen:**
 
 1. Erstellen von **Bestückungsansichten** (Ober-/Unterseite) inkl. **konfigurierbarem Bestückungsdruck**
 2. **Export**: Koordinaten & BoM als CSV, Netzliste
 3. **Konvertierungen** der PCB/CAM-Formate
 4. … und vieles mehr
 
-## Über dieses Repository
+<br>
+
+<h2 align="center">Über dieses Repository</h2>
 
 EFA CAMverse ist proprietäre Closed-Source-Software von LEBERT Software Engineering. Dieses Repository enthält **keinen** Quellcode – es ist die öffentliche Anlaufstelle für die **Installationsdateien** ([Releases](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases)), das **[Änderungsprotokoll](CHANGELOG.md)** sowie **Fehlermeldungen und Funktionswünsche** ([Issues](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues)).
 
-## Support & Feedback
+**Support & Feedback**
 
 - Fehler gefunden oder Funktion vermisst? [Issue anlegen](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues/new/choose) – auf Deutsch oder Englisch.
 - Fragen, Lizenzierung, vertrauliche Beispieldaten: [EFA_CAMverse@lse.cc](mailto:EFA_CAMverse@lse.cc)
 - Produkt-Website: [efacamverse.lebert.ai](https://efacamverse.lebert.ai/)
 
-## Rechtliches
+<br>
 
-<a href="https://lebert.org"><img src="assets/logo_lse.png" width="140" alt="LSE – LEBERT Software Engineering"></a>
+<h2 align="center">Rechtliches</h2>
+
+<p align="center"><a href="https://lebert.org"><img src="assets/logo_lse.png" width="140" alt="LSE – LEBERT Software Engineering"></a></p>
 
 EFA CAMverse ist Teil der **EFA SmartSuite** für die Elektronikfertigung – entwickelt von [LEBERT Software Engineering](https://lebert.org).
 © 2026 LEBERT Software Engineering GmbH & Co. KG. Alle Rechte vorbehalten. Die Nutzung der Software unterliegt den [Lizenzbedingungen](LICENSE.md); sie enthält Open-Source-Komponenten (OpenCV, pugixml, earcut.hpp, libzip, zlib) unter ihren jeweiligen Lizenzen, das optionale 3D-Modellpaket enthält KiCad-Bibliotheksmodelle unter CC-BY-SA 4.0 – siehe [LICENSE.md](LICENSE.md). Alle Marken sind Eigentum ihrer jeweiligen Inhaber.
 
-<sub>[Impressum](https://lebert.org/impressum) · [Datenschutz](https://lebert.org/datenschutzerklaerung)</sub>
+<p align="center"><sub><a href="https://lebert.org/impressum">Impressum</a> · <a href="https://lebert.org/datenschutzerklaerung">Datenschutz</a></sub></p>

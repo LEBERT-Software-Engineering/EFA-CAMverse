@@ -21,7 +21,9 @@
 
 > **New:** Gerber X/X2 + coordinates become Gerber X3 (for assembly) → [read more](#gerber-x3)
 
-## Download
+<br>
+
+<h2 align="center">Download</h2>
 
 <p align="center">
   <a href="https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest"><img alt="Download EFA CAMverse 2026" src="https://img.shields.io/badge/Download-EFA%20CAMverse%202026%20for%20Windows-1e5aa8?style=for-the-badge"></a>
@@ -56,7 +58,11 @@ Get-FileHash .\EFA_CAMverse_2026_Setup_x64.exe -Algorithm SHA256
 Compare the hash with `SHA256SUMS.txt` of the release.
 </details>
 
-## Supported formats
+<br>
+
+<h2 align="center">Supported formats</h2>
+
+<p align="center"><b>One viewer for every PCB/CAM format.</b> EFA CAMverse reads each format natively – from design to manufacturing inspection, with no conversion and no cloud.</p>
 
 <p align="center">
   <picture>
@@ -64,8 +70,6 @@ Compare the hash with `SHA256SUMS.txt` of the release.
     <img src="assets/formats_strip_light.png" width="100%" alt="Supported formats: Gerber X/X2/X3, EAGLE, ODB++, IPC-2581, GenCAD 1.4, IPC-D-356, DXF, PADS Layout, KiCad">
   </picture>
 </p>
-
-One viewer for every PCB/CAM format – from design to manufacturing inspection. EFA CAMverse reads each format natively, with no conversion and no cloud.
 
 <details>
 <summary><b>File types and details</b></summary>
@@ -85,10 +89,13 @@ One viewer for every PCB/CAM format – from design to manufacturing inspection.
 
 </details>
 
-<a id="gerber-x3"></a>
-## Gerber X/X2 + coordinates = Gerber X3 (for assembly)
+<br>
 
-*New – for EMS providers.* Everyday EMS reality: the customer delivers classic Gerber data without component information – plus some pick & place file. EFA CAMverse merges both and adds the complete component layer you otherwise only get from Gerber X3.
+<a id="gerber-x3"></a>
+<p align="center"><sub><b>NEW · FOR EMS PROVIDERS</b></sub></p>
+<h2 align="center">Gerber X/X2 + coordinates = Gerber X3 (for assembly)</h2>
+
+**Everyday EMS reality:** the customer delivers classic Gerber data without component information – plus some pick & place file. EFA CAMverse merges both and adds the complete component layer you otherwise only get from Gerber X3.
 
 <p align="center">
   <img src="assets/x3_equation.png" width="100%" alt="Gerber X/X2 layers (.gbr) plus a coordinate file (.csv/.txt) result in a populated board – Gerber X3 (for assembly)">
@@ -99,21 +106,34 @@ One viewer for every PCB/CAM format – from design to manufacturing inspection.
 - **Traceable, not a black box:** after every run a report shows which components were assigned reliably and which were not. If one sits wrong, you move it with two clicks in the image.
 - **Just like real X3 from now on:** assembly views, variants, bill of materials and 3D are available, as if the data set had always known its components. The verified coordinates go out as CSV – for machine programming or straight back to your customer.
 
-## Features – See. Verify. Manufacture.
+<br>
 
-One consistent feature set across every format – instead of a different tool for each one.
+<h2 align="center">Features</h2>
 
-- <img src="assets/feat_layers.png" width="22" alt="" valign="middle"> &nbsp;**Layers & stackup** – toggle every layer, control transparency and read the full material build-up in the stackup pane.
-- <img src="assets/feat_3d.png" width="22" alt="" valign="middle"> &nbsp;**3D view** – view the board in space, with components as 3D bodies; rotate and zoom freely.
-- <img src="assets/feat_netlist.png" width="22" alt="" valign="middle"> &nbsp;**Drills & nets** – drill tables, netlist pane and bidirectional highlight; double-click to zoom to a net.
-- <img src="assets/feat_components.png" width="22" alt="" valign="middle"> &nbsp;**Assembly & variants** – flexibly create assembly views; show or hide components to match the customer's variant with one click, with freely selectable labeling.
-- <img src="assets/feat_x3.png" width="22" alt="" valign="middle"> &nbsp;**Gerber X/X2 + coordinates = X3** – add external coordinate data to classic Gerber files; EFA CAMverse merges both into Gerber X3 (for assembly).
-- <img src="assets/feat_exportfile.png" width="22" alt="" valign="middle"> &nbsp;**Export & manufacture** – export for manufacturing: images as PDF, PNG or JPG, coordinates and BoM as CSV.
-- <img src="assets/feat_measure.png" width="22" alt="" valign="middle"> &nbsp;**Measure & inspect** – precise distance and geometry measurement, with bounding rectangle and centre of each component.
-- <img src="assets/feat_export.png" width="22" alt="" valign="middle"> &nbsp;**Convert formats & GenCAD** – pass on imported data as GenCAD 1.4; real conversion, not just viewing.
-- <img src="assets/feat_offline.png" width="22" alt="" valign="middle"> &nbsp;**Offline & native** – a native Windows application; no cloud, no upload. Your manufacturing data stays local.
+<p align="center"><b>See. Verify. Manufacture.</b> One consistent feature set across every format – instead of a different tool for each one.</p>
 
-## Assembly drawing & variants
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_layers.png" width="48" alt=""><br><br><b>Layers &amp; stackup</b><br>Toggle every layer, control transparency and read the full material build-up in the stackup pane.<br><br></td>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_3d.png" width="48" alt=""><br><br><b>3D view</b><br>View the board in space – with components as 3D bodies, rotate and zoom freely.<br><br></td>
+    <td align="center" valign="top" width="33%"><br><img src="assets/feat_netlist.png" width="48" alt=""><br><br><b>Drills &amp; nets</b><br>Drill tables, netlist pane and bidirectional highlight – double-click to zoom to a net.<br><br></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><br><img src="assets/feat_components.png" width="48" alt=""><br><br><b>Assembly &amp; variants</b><br>Flexibly create assembly views – show or hide components to match the customer's variant with one click, with freely selectable labeling.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_x3.png" width="48" alt=""><br><br><b>Gerber X/X2 + coordinates = X3</b><br>Add external coordinate data to classic Gerber files – EFA CAMverse merges both into Gerber X3 (for assembly).<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_exportfile.png" width="48" alt=""><br><br><b>Export &amp; manufacture</b><br>Export for manufacturing: images as PDF, PNG or JPG, coordinates and BoM as CSV.<br><br></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><br><img src="assets/feat_measure.png" width="48" alt=""><br><br><b>Measure &amp; inspect</b><br>Precise distance and geometry measurement – with bounding rectangle and centre of each component.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_export.png" width="48" alt=""><br><br><b>Convert formats &amp; GenCAD</b><br>Pass on imported data as GenCAD 1.4 – real conversion, not just viewing.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_offline.png" width="48" alt=""><br><br><b>Offline &amp; native</b><br>A native Windows application – no cloud, no upload. Your manufacturing data stays local.<br><br></td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center"><sub><b>NEW · ASSEMBLY DRAWING &amp; VARIANTS</b></sub></p>
+<h2 align="center">Assembly drawing &amp; variants</h2>
 
 **Generate the assembly drawing yourself – exactly as production needs it.** EFA CAMverse does not display a supplied assembly drawing – it draws one from the data itself, component by component. That is precisely why your customer's variant can really be reproduced: whatever is not populated never appears in the first place.
 
@@ -130,7 +150,10 @@ One consistent feature set across every format – instead of a different tool f
 - **Both sides:** top and bottom, each as its own assembly view.
 - **Output:** export the assembly plan, coordinate data and bill of materials for production.
 
-## 3D view
+<br>
+
+<p align="center"><sub><b>NEW · 3D VIEW</b></sub></p>
+<h2 align="center">3D view</h2>
 
 **The board in 3D – interactive and realistic.** One click switches from the layer view to a spatial representation: board, surfaces and components as a real 3D model – rotate and zoom freely.
 
@@ -145,9 +168,11 @@ One consistent feature set across every format – instead of a different tool f
 
 The optional **3D model pack** (KiCad 3D library models in VRML format, CC-BY-SA 4.0) is published as a separate [release](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/3dmodels-9.0.0); EFA CAMverse downloads and installs it from within the application.
 
-## Why EFA CAMverse
+<br>
 
-**9 PCB/CAM formats. One application. One workflow.** One familiar way of working for every format: learn it once, then handle Gerber, ODB++, KiCad and six more formats the same way – all in a single application.
+<h2 align="center">Why EFA CAMverse</h2>
+
+<p align="center"><b>9 PCB/CAM formats. One application. One workflow.</b> One familiar way of working for every format: learn it once, then handle Gerber, ODB++, KiCad and six more formats the same way.</p>
 
 - **One way of working for everything** – learn it once, then operate every format identically: layers, stackup, measuring and export work the same everywhere.
 - **Native, no detours** – open any format with no intermediate conversion and start working right away; no export-import back-and-forth between programs.
@@ -155,30 +180,38 @@ The optional **3D model pack** (KiCad 3D library models in VRML format, CC-BY-SA
 - **A bridge between formats** – read any of the 9 PCB/CAM formats and pass it on as GenCAD 1.4; EFA CAMverse connects what otherwise stays separate.
 - **One install, one update** – maintain one application instead of many separate tools: one update, one point of contact, all local.
 
-## Free viewer & Pro features
+<br>
 
-EFA CAMverse is free to use as a viewer – unlock advanced features whenever you need them. **Pro features:**
+<h2 align="center">Free viewer &amp; Pro features</h2>
+
+<p align="center">EFA CAMverse is free to use as a viewer – unlock advanced features whenever you need them.</p>
+
+**Pro features:**
 
 1. create **assembly views** (top/bottom) with **configurable assembly print**
 2. **export** coordinates & BoM as CSV, netlists
 3. **convert** between PCB/CAM formats
 4. … and much more
 
-## About this repository
+<br>
+
+<h2 align="center">About this repository</h2>
 
 EFA CAMverse is proprietary, closed-source software by LEBERT Software Engineering. This repository does **not** contain source code – it is the public home for the **installer downloads** ([Releases](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases)), the **[changelog](CHANGELOG.md)** and **bug reports and feature requests** ([Issues](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues)).
 
-## Support & feedback
+**Support & feedback**
 
 - Found a bug or missing a feature? [Open an issue](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues/new/choose) – in English or German.
 - Questions, licensing, confidential sample data: [EFA_CAMverse@lse.cc](mailto:EFA_CAMverse@lse.cc)
 - Product website: [efacamverse.lebert.ai](https://efacamverse.lebert.ai/)
 
-## Legal
+<br>
 
-<a href="https://lebert.org"><img src="assets/logo_lse.png" width="140" alt="LSE – LEBERT Software Engineering"></a>
+<h2 align="center">Legal</h2>
+
+<p align="center"><a href="https://lebert.org"><img src="assets/logo_lse.png" width="140" alt="LSE – LEBERT Software Engineering"></a></p>
 
 EFA CAMverse is part of the **EFA SmartSuite** for electronics manufacturing – developed by [LEBERT Software Engineering](https://lebert.org).
 © 2026 LEBERT Software Engineering GmbH & Co. KG. All rights reserved. Use of the software is subject to the [license terms](LICENSE.md); it contains open-source components (OpenCV, pugixml, earcut.hpp, libzip, zlib) under their respective licenses, and the optional 3D model pack contains KiCad library models under CC-BY-SA 4.0 – see [LICENSE.md](LICENSE.md). All trademarks are the property of their respective owners.
 
-<sub>[Imprint](https://lebert.org/impressum) · [Privacy policy](https://lebert.org/datenschutzerklaerung)</sub>
+<p align="center"><sub><a href="https://lebert.org/impressum">Imprint</a> · <a href="https://lebert.org/datenschutzerklaerung">Privacy policy</a></sub></p>
