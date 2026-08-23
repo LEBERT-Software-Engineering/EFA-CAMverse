@@ -50,5 +50,5 @@ Erste auf GitHub veröffentlichte Version. Highlights des aktuellen Funktionsumf
 
 Ältere Versionen wurden nicht auf GitHub geführt.
 
-[Unreleased]: https://github.com/__ORG__/EFA-CAMverse/compare/v3.2.1...HEAD
-[3.2.1]: https://github.com/__ORG__/EFA-CAMverse/releases/tag/v3.2.1
+[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.2.1...HEAD
+[3.2.1]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/v3.2.1

@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/__ORG__/EFA-CAMverse/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/__ORG__/EFA-CAMverse?label=latest%20release&color=1e5aa8"></a>
-  <a href="https://github.com/__ORG__/EFA-CAMverse/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/__ORG__/EFA-CAMverse/total?label=downloads&color=0bb4cf"></a>
+  <a href="https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/LEBERT-Software-Engineering/EFA-CAMverse?label=latest%20release&color=1e5aa8"></a>
+  <a href="https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/LEBERT-Software-Engineering/EFA-CAMverse/total?label=downloads&color=0bb4cf"></a>
   <img alt="Windows 10 / 11, 64-bit" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-555">
   <img alt="Free viewer – Pro features optional" src="https://img.shields.io/badge/viewer-free%20%C2%B7%20Pro%20optional-27d3a3">
   <a href="https://efacamverse.lebert.ai/"><img alt="Website" src="https://img.shields.io/badge/website-efacamverse.lebert.ai-1e5aa8"></a>
@@ -31,12 +31,12 @@ EFA CAMverse opens Gerber X3, EAGLE, ODB++, IPC-2581, GenCAD, IPC-D-356, DXF, PA
 
 ## Download
 
-### [⬇ Download EFA CAMverse 2026 – latest release](https://github.com/__ORG__/EFA-CAMverse/releases/latest)
+### [⬇ Download EFA CAMverse 2026 – latest release](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest)
 
 | File | Purpose |
 |---|---|
-| [`EFA_CAMverse_2026_Setup_x64.exe`](https://github.com/__ORG__/EFA-CAMverse/releases/latest/download/EFA_CAMverse_2026_Setup_x64.exe) | **Recommended.** Setup bundle including the Microsoft Visual C++ runtime. Interactive installer; upgrades an existing installation in place. |
-| [`EFA_CAMverse_2026_x64.msi`](https://github.com/__ORG__/EFA-CAMverse/releases/latest/download/EFA_CAMverse_2026_x64.msi) | Plain Windows Installer package for administrators and software deployment. Requires the Microsoft Visual C++ 2015–2022 x64 Redistributable. |
+| [`EFA_CAMverse_2026_Setup_x64.exe`](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest/download/EFA_CAMverse_2026_Setup_x64.exe) | **Recommended.** Setup bundle including the Microsoft Visual C++ runtime. Interactive installer; upgrades an existing installation in place. |
+| [`EFA_CAMverse_2026_x64.msi`](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/latest/download/EFA_CAMverse_2026_x64.msi) | Plain Windows Installer package for administrators and software deployment. Requires the Microsoft Visual C++ 2015–2022 x64 Redistributable. |
 | `SHA256SUMS.txt` | SHA-256 checksums of the files above (attached to every release). |
 
 **System requirements:** Windows 10 or Windows 11, 64-bit.
@@ -166,7 +166,7 @@ One consistent feature set across every format – instead of a different tool f
 - **Assign models:** conveniently, with search and 3D preview in the assignment dialog.
 - **Rotate and zoom freely:** components hidden by the variant disappear live in 3D too.
 
-The optional **3D model pack** (KiCad 3D library models in VRML format, CC-BY-SA 4.0) is published as a separate [release](https://github.com/__ORG__/EFA-CAMverse/releases/tag/3dmodels-9.0.0); EFA CAMverse downloads and installs it from within the application.
+The optional **3D model pack** (KiCad 3D library models in VRML format, CC-BY-SA 4.0) is published as a separate [release](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/3dmodels-9.0.0); EFA CAMverse downloads and installs it from within the application.
 
 ## Why EFA CAMverse
 
@@ -201,13 +201,13 @@ EFA CAMverse is free to use as a viewer – unlock advanced features whenever yo
 
 EFA CAMverse is proprietary, closed-source software by LEBERT Software Engineering. This repository does **not** contain source code – it is the public home for
 
-- the **installer downloads** → [Releases](https://github.com/__ORG__/EFA-CAMverse/releases),
+- the **installer downloads** → [Releases](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases),
 - the **[changelog](CHANGELOG.md)**,
-- **bug reports and feature requests** → [Issues](https://github.com/__ORG__/EFA-CAMverse/issues).
+- **bug reports and feature requests** → [Issues](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues).
 
 ## Support & feedback
 
-- Found a bug or missing a feature? [Open an issue](https://github.com/__ORG__/EFA-CAMverse/issues/new/choose) – in English or German.
+- Found a bug or missing a feature? [Open an issue](https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/issues/new/choose) – in English or German.
 - Questions, licensing, confidential sample data: [EFA_CAMverse@lse.cc](mailto:EFA_CAMverse@lse.cc)
 - Product website: [efacamverse.lebert.ai](https://efacamverse.lebert.ai/)
 
