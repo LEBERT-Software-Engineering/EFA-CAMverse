@@ -1,0 +1,41 @@
+name: Feature request / Funktionswunsch
+description: Suggest an improvement or a new feature. / Eine Verbesserung oder neue Funktion vorschlagen.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English or German is fine. / Deutsch oder Englisch – beides willkommen.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to achieve?
+      description: Describe the task or workflow – e.g. "When preparing assembly data for … I need …".
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How should EFA CAMverse support this?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Data format (import/export)
+        - Layers / stackup / drills
+        - Assembly drawing / variants
+        - Gerber X3 from coordinates
+        - 3D view
+        - Measuring / inspection
+        - Export (CSV, BoM, images)
+        - User interface
+        - Other
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context

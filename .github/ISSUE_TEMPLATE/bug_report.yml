@@ -1,0 +1,73 @@
+name: Bug report / Fehlermeldung
+description: Something does not work as expected. / Etwas funktioniert nicht wie erwartet.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. English or German is fine. / Deutsch oder Englisch – beides willkommen.
+
+        **Please do not attach confidential manufacturing data.** If a sample file is needed to reproduce the problem,
+        send it by e-mail to EFA_CAMverse@lse.cc and reference this issue.
+  - type: input
+    id: version
+    attributes:
+      label: EFA CAMverse version
+      description: See Help → About (e.g. 3.2.1).
+      placeholder: "3.2.1"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Data format involved
+      options:
+        - Gerber X/X2/X3 / Excellon
+        - EAGLE
+        - ODB++
+        - IPC-2581
+        - GenCAD 1.4
+        - IPC-D-356
+        - DXF
+        - PADS Layout (.asc)
+        - KiCad
+        - Coordinate / pick & place file (Gerber X3 workflow)
+        - Not format-specific
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What happens instead? Error messages, screenshots (without confidential content) are helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that might help (e.g. which CAD system exported the data).

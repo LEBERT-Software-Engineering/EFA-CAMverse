@@ -1,0 +1,10 @@
+# Text files: normalize line endings in the repository
+* text=auto
+
+*.md   text eol=lf
+*.yml  text eol=lf
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.ico  binary

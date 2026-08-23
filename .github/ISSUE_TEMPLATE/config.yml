@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: E-mail support (confidential data, licensing) / E-Mail-Support
+    url: mailto:EFA_CAMverse@lse.cc
+    about: For questions, licensing and sample files that must not be shared publicly.
+  - name: Product website / Produkt-Website
+    url: https://efacamverse.lebert.ai/
+    about: Feature overview, downloads and contact.
