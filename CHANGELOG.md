@@ -8,7 +8,7 @@ Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – j
 
 ## [Unreleased]
 
-## [3.5.2] - 2026-09-01
+## [3.5.4] - 2026-09-01
 
 ### English
 
@@ -95,6 +95,6 @@ Erste auf GitHub veröffentlichte Version. Highlights des aktuellen Funktionsumf
 
 Ältere Versionen wurden nicht auf GitHub geführt.
 
-[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.2...HEAD
-[3.5.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.2.1...v3.5.2
+[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.4...HEAD
+[3.5.4]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.2.1...v3.5.4
 [3.2.1]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/v3.2.1
