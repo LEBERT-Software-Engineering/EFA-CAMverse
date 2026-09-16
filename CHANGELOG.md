@@ -8,6 +8,48 @@ Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – j
 
 ## [Unreleased]
 
+## [3.6.2] - 2026-09-16
+
+### English
+
+- **Assembly view – labels the way you want them:** move any reference label by hand, rotate it, undo and redo
+  your changes, and reset everything to automatic placement with one click. Instead of the reference designator
+  the label can show any component field – value, package, part number and more – for all components or by rule
+  per component type. A smaller minimum font size suits dense boards.
+- **Large data without waiting in the dark:** a progress dialog shows the loading state for all nine formats, and
+  the rendering resolution adapts to the board size and the available memory – no more frozen windows, no more
+  aborts on machines with less memory.
+- **Multi-up panels in the assembly view:** ODB++ panels are shown with every single board, including component
+  hover and *Hide text* across the whole panel.
+- **Silkscreen text removal works on Altium data:** *Hide text* in the layer view, the assembly overlay and the
+  GenCAD export option now also remove the labels of Altium exports, keeping the component outlines.
+- **IPC-2581:** components are placed on the correct side, line widths are rendered as designed, and large files
+  load faster.
+- **Altium ODB++:** umlauts and special characters in component data are shown correctly.
+- **Fixed:** *Reload* (Ctrl+R) for GenCAD, EAGLE, KiCad, IPC-2581 and ODB++; cancelling the save prompt on exit
+  left the application unresponsive; unsaved project changes are now confirmed before closing.
+
+### Deutsch
+
+- **Bestückungsansicht – Beschriftungen so, wie Sie sie wollen:** jede Referenzbeschriftung von Hand verschieben,
+  drehen, Änderungen rückgängig machen und wiederholen, alles mit einem Klick auf Automatik zurücksetzen. Statt
+  der Referenz zeigt die Beschriftung auf Wunsch jedes Bauteilfeld – Wert, Gehäuse, Artikelnummer und mehr – für
+  alle Bauteile oder per Regel je Bauteiltyp. Eine kleinere Mindestschriftgröße passt zu dichten Platinen.
+- **Große Daten ohne Warten im Dunkeln:** ein Fortschrittsdialog zeigt den Ladestand für alle neun Formate, und
+  die Darstellungsauflösung richtet sich nach Platinengröße und verfügbarem Arbeitsspeicher – kein eingefrorenes
+  Fenster mehr, keine Abbrüche auf Rechnern mit weniger Speicher.
+- **Mehrfachnutzen in der Bestückungsansicht:** ODB++-Nutzen erscheinen mit allen Einzelschaltungen, inklusive
+  Bauteil-Hover und „Schriftzüge ausblenden" über den ganzen Nutzen.
+- **Schriftzüge entfernen auch bei Altium-Daten:** „Schriftzüge ausblenden" in der Lagenansicht, das Bestückungs-
+  Overlay und die GenCAD-Exportoption entfernen jetzt auch die Beschriftung von Altium-Exporten; die Bauteilumrisse
+  bleiben erhalten.
+- **IPC-2581:** Bauteile liegen auf der richtigen Seite, Linienbreiten erscheinen wie entworfen, große Dateien
+  laden schneller.
+- **Altium-ODB++:** Umlaute und Sonderzeichen in Bauteildaten werden korrekt angezeigt.
+- **Behoben:** „Neu laden" (Strg+R) bei GenCAD, EAGLE, KiCad, IPC-2581 und ODB++; nach „Abbrechen" in der
+  Sicherungs-Rückfrage beim Beenden reagierte das Programm nicht mehr; ungesicherte Projektänderungen werden jetzt
+  vor dem Schließen abgefragt.
+
 ## [3.5.4] - 2026-09-01
 
 ### English
