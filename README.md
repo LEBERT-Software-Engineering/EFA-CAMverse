@@ -98,7 +98,7 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 **Everyday EMS reality:** the customer delivers classic Gerber data without component information – plus some pick & place file. EFA CAMverse merges both and adds the complete component layer you otherwise only get from Gerber X3.
 
 <p align="center">
-  <img src="assets/x3_equation.png" width="100%" alt="Gerber X/X2 layers (.gbr) plus a coordinate file (.csv/.txt) result in a populated board – Gerber X3 (for assembly)">
+  <img src="assets/x3_equation.png" width="100%" alt="Gerber X/X2 layers (.gbr) plus a coordinate file (.csv/.txt/.xlsx) result in a populated board – Gerber X3 (for assembly)">
 </p>
 
 - **Load the coordinate file – done:** EFA CAMverse automatically assigns pads, silkscreen outline and drill holes to every component.

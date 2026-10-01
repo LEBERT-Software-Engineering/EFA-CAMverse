@@ -8,7 +8,41 @@ Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – j
 
 ## [Unreleased]
 
-## [3.6.2] - 2026-09-16
+## [3.7.0]
+
+### English
+
+- **New: DXF export for all 9 formats:** pass on board outline, drill holes, fiducials, components or all board
+  layers to depaneling software or a CAD program – with ready-made settings for depaneling, design and
+  documentation.
+- **DXF files from other programs** can be prepared and passed on as well; the DXF display shows texts closer to
+  the original.
+- **Pick & place files:** now also straight from Excel (.xlsx), and so are assembly variants. More layouts are read
+  automatically, and where needed you adjust the import yourself. Gerber X3 via coordinate data works more
+  reliably.
+- **Bill of materials:** now contains every component attribute of the source data; components with differing
+  properties such as tolerance get a line of their own.
+- **Tooltips** explain the options in the export and import dialogs.
+- Gerber and drill data are read even more reliably, and the GenCAD export has been improved further; many detail
+  improvements and fixes.
+
+### Deutsch
+
+- **Neu: DXF-Export für alle 9 Formate:** Kontur, Bohrungen, Passmarken, Bauteile oder alle Leiterplattenlagen an
+  eine Depanelling-Software oder ein CAD-Programm weitergeben – mit fertigen Vorgaben für Nutzentrennen,
+  Konstruktion und Dokumentation.
+- **DXF-Dateien anderer Programme** lassen sich ebenfalls aufbereiten und weitergeben; die DXF-Anzeige zeigt Texte
+  näher am Original.
+- **Koordinatendateien:** jetzt auch direkt aus Excel (.xlsx), ebenso Bestückungsvarianten. Mehr Aufbauten werden
+  automatisch gelesen, bei Bedarf passen Sie das Einlesen selbst an. Gerber X3 über Koordinatendaten arbeitet
+  zuverlässiger.
+- **Stückliste:** enthält jetzt alle Bauteilattribute der Quelldaten; Bauteile mit abweichenden Eigenschaften wie
+  der Toleranz stehen in einer eigenen Zeile.
+- **Tooltips** erklären die Optionen in den Export- und Import-Dialogen.
+- Gerber- und Bohrdaten werden noch sicherer gelesen, der GenCAD-Export wurde weiter verbessert; dazu viele
+  Detailverbesserungen und Fehlerbehebungen.
+
+## [3.6.2]
 
 ### English
 
@@ -50,7 +84,7 @@ Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – j
   Sicherungs-Rückfrage beim Beenden reagierte das Programm nicht mehr; ungesicherte Projektänderungen werden jetzt
   vor dem Schließen abgefragt.
 
-## [3.5.4] - 2026-09-01
+## [3.5.4]
 
 ### English
 
@@ -66,9 +100,8 @@ Covers everything since 3.2.1 (versions 3.3.x and 3.4.x were not released on Git
   in addition to CSV. For the BoM you choose how items are grouped.
 - **GenCAD 1.4 export extended:** more faithful board data for the round trip into EFA SmartSuite; the option to drop
   all text from the silkscreen layers is now available for Gerber sources as well.
-- **Board outline detection fixed:** Altium mechanical layers such as `.GM13`/`.GM15` were mistaken for the board
-  profile because the file-extension test matched too loosely. Sets without a recognisable profile layer now derive
-  the board area from the copper, so the assembly drawing always shows a proper board surface.
+- **Board outline** is detected more reliably – even data sets without an outline layer now show a clean board
+  surface in the assembly drawing.
 - **Assembly drawing:** the layer shown as an overlay now follows the side – switching to the bottom side no longer
   leaves the top silkscreen on screen.
 - Several CAM formats open and render noticeably faster; many detail improvements and fixes.
@@ -88,14 +121,13 @@ Umfasst alle Änderungen seit 3.2.1 (die Versionen 3.3.x und 3.4.x wurden nicht 
   Excel-Arbeitsmappe ausgeben. Bei der Stückliste ist die Art der Zusammenfassung wählbar.
 - **GenCAD-1.4-Export ausgebaut:** verlässlichere Boarddaten für den Rückweg in die EFA SmartSuite; die Option, alle
   Textelemente von den Silk-Lagen zu entfernen, steht nun auch für Gerber-Quellen zur Verfügung.
-- **Konturerkennung korrigiert:** Altium-Mechaniklagen wie `.GM13`/`.GM15` galten als Platinenkontur, weil der
-  Endungsvergleich zu unscharf war. Datensätze ohne erkennbare Konturlage leiten die Platinenfläche jetzt aus dem
-  Kupfer ab – der Bestückdruck zeigt damit immer eine saubere LP-Oberfläche.
+- **Platinenkontur** wird zuverlässiger erkannt – auch bei Datensätzen ohne eigene Konturlage zeigt der Bestückdruck
+  eine saubere Leiterplattenoberfläche.
 - **Bestückdruck:** die eingeblendete Lage folgt der Seite – beim Wechsel auf die Unterseite bleibt nicht länger der
   Bestückungsdruck der Oberseite stehen.
 - Diverse CAM-Formate öffnen und zeichnen spürbar zügiger; dazu viele Detailverbesserungen und Fehlerbehebungen.
 
-## [3.2.1] - 2026-08-23
+## [3.2.1]
 
 ### English
 
@@ -137,6 +169,8 @@ Erste auf GitHub veröffentlichte Version. Highlights des aktuellen Funktionsumf
 
 Ältere Versionen wurden nicht auf GitHub geführt.
 
-[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.4...HEAD
+[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.0...HEAD
+[3.7.0]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.6.2...v3.7.0
+[3.6.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.4...v3.6.2
 [3.5.4]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.2.1...v3.5.4
 [3.2.1]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/releases/tag/v3.2.1

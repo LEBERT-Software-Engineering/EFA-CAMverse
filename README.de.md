@@ -98,7 +98,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 **Der EMS-Alltag:** Der Kunde liefert klassische Gerber-Daten ohne Bauteilinformation – und irgendeine Pick-&-Place-Datei. EFA CAMverse führt beides zusammen und ergänzt die komplette Bauteilebene, wie man sie sonst nur von Gerber X3 kennt.
 
 <p align="center">
-  <img src="assets/x3_equation.png" width="100%" alt="Gerber-X/X2-Lagen (.gbr) plus Koordinatendatei (.csv/.txt) ergeben eine bestückte Leiterkarte – Gerber X3 (für die Bestückung)">
+  <img src="assets/x3_equation.png" width="100%" alt="Gerber-X/X2-Lagen (.gbr) plus Koordinatendatei (.csv/.txt/.xlsx) ergeben eine bestückte Leiterkarte – Gerber X3 (für die Bestückung)">
 </p>
 
 - **Koordinatendatei laden – fertig:** EFA CAMverse ordnet jedem Bauteil automatisch Pads, Bestückungsdruck-Umriss und Bohrungen zu.
