@@ -19,7 +19,9 @@
 
 <p align="center"><b>9</b> Formate nativ &nbsp;·&nbsp; <b>1</b> Werkzeug, On-Premise &nbsp;·&nbsp; <b>100 %</b> lokal &amp; sicher</p>
 
-> **Neu:** Aus Gerber X/X2 + Koordinaten wird Gerber X3 (für die Bestückung) → [mehr dazu](#gerber-x3)
+> **Neu in 3.7:** DXF-Export für Nutzentrennen, Konstruktion und Dokumentation – aus allen 9 Formaten → [mehr dazu](#dxf-gencad)
+>
+> **Neu:** Serie „EFA CAMverse kompakt“ – jeden Dienstag eine Funktion, kurz und praxisnah mit Video → [zur Serie](#praxis)
 
 <br>
 
@@ -83,7 +85,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 | **IPC-2581** | `.xml` `.cvg` `.zip` | Offener Industriestandard (DPMX) |
 | **GenCAD 1.4** | `.cad` `.gcd` `.pnl` | Bestückdaten – Import & Export · *einzigartig* |
 | **IPC-D-356** | `.ipc` `.356` `.d356` | Bare-Board-Netzliste & Testdaten · *einzigartig* |
-| **DXF** | `.dxf` | Mechanik & Bestückung (AutoCAD) |
+| **DXF** | `.dxf` | Mechanik & Bestückung (AutoCAD) – Import & Export |
 | **PADS Layout** | `.asc` | Nativ ansehen (Siemens/Mentor) · *einzigartig* |
 | **KiCad** | `.kicad_pcb` `.kicad_pro` | Board- und Projektdateien öffnen |
 
@@ -92,7 +94,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 <br>
 
 <a id="gerber-x3"></a>
-<p align="center"><sub><b>NEU · FÜR EMS-DIENSTLEISTER</b></sub></p>
+<p align="center"><sub><b>FÜR EMS-DIENSTLEISTER</b></sub></p>
 <h2 align="center">Gerber X/X2 + Koordinaten = Gerber X3 (Bestückung)</h2>
 
 **Der EMS-Alltag:** Der Kunde liefert klassische Gerber-Daten ohne Bauteilinformation – und irgendeine Pick-&-Place-Datei. EFA CAMverse führt beides zusammen und ergänzt die komplette Bauteilebene, wie man sie sonst nur von Gerber X3 kennt.
@@ -102,9 +104,47 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 </p>
 
 - **Koordinatendatei laden – fertig:** EFA CAMverse ordnet jedem Bauteil automatisch Pads, Bestückungsdruck-Umriss und Bohrungen zu.
-- **Kein Umformatieren nötig:** Spaltenaufbau, Trenn- und Dezimalzeichen, Maßeinheit und Seitenangabe erkennt EFA CAMverse selbst – auch ohne Kopfzeile. Sie laden die Liste, wie Ihr Kunde sie liefert, ob aus Altium, KiCad, EAGLE, …
+- **Kein Umformatieren nötig:** Sie laden die Liste, wie Ihr Kunde sie liefert – als Textdatei oder Excel-Arbeitsmappe, ob aus Altium, KiCad, EAGLE, … Klappt die Automatik einmal nicht, passen Sie das Einlesen in einem Dialog an.
 - **Nachvollziehbar statt Blackbox:** Ein Bericht zeigt nach jedem Lauf, welche Bauteile sicher zugeordnet sind und welche nicht. Sitzt eines falsch, setzen Sie es mit zwei Klicks im Bild an die richtige Stelle.
-- **Ab jetzt wie echtes X3:** Bestückungsansichten, Varianten, Stückliste und 3D stehen zur Verfügung, als hätte der Datensatz seine Bauteile immer gekannt. Die geprüften Koordinaten geben Sie als CSV aus – für die Maschinenprogrammierung oder zurück an den Kunden.
+- **Ab jetzt wie echtes X3:** Bestückungsansichten, Varianten, Stückliste und 3D stehen zur Verfügung, als hätte der Datensatz seine Bauteile immer gekannt. Die geprüften Koordinaten geben Sie als CSV oder Excel aus – für die Maschinenprogrammierung oder zurück an den Kunden.
+
+→ [Alles zu Gerber X3](https://efacamverse.lebert.ai/praxis-01-gerber-x3.html)
+
+<br>
+
+<a id="dxf-gencad"></a>
+<p align="center"><sub><b>NEU · DXF-EXPORT</b></sub></p>
+<h2 align="center">Daten weitergeben: DXF &amp; GenCAD</h2>
+
+**Aus jedem Format eine saubere DXF-Datei.** Ob Gerber, ODB++, KiCad oder eines der anderen Formate: EFA CAMverse gibt Ihre Daten als DXF weiter – mit fertigen Vorgaben für den jeweiligen Zweck.
+
+- **Nutzentrennen:** Kontur, Fräskanäle, Stege und Bohrungen für die Depanelling-Software – als geschlossene Konturen mit echten Bögen.
+- **Konstruktion:** Kontur, Bohrungen, Passmarken und Bauteilumrisse für das CAD-Programm – etwa für Vorrichtung oder Gehäuse.
+- **Dokumentation:** alle Leiterplattenlagen als Zeichnung – Kupfer, Bestückungsdruck, Lötstopp und Lötpaste.
+- **Passend für Ihre Folgesoftware:** in Millimeter oder Zoll, auf Wunsch nur mit den Bauteilen der Kundenvariante – auch DXF-Dateien anderer Programme lassen sich aufbereiten und weitergeben.
+
+**GenCAD – die Sprache Ihrer Produktionsmaschinen.** In-Circuit-Tester, Flying-Probe- und AOI-Anlagen oder Bestückautomaten erwarten zur Programmierung häufig GenCAD. EFA CAMverse erzeugt GenCAD 1.4 aus 7 der 9 Formate – Gerber (auch mit Koordinatendaten), ODB++, IPC-2581, EAGLE, KiCad, PADS und GenCAD selbst – mit Kontur, Bauteilen, Pads, Bohrungen und, wo vorhanden, Netzen; auf Wunsch nur mit den Bauteilen der Kundenvariante.
+
+→ [Alles zum DXF-Export](https://efacamverse.lebert.ai/dxf-export.html) · [Alles zum GenCAD-Export](https://efacamverse.lebert.ai/gencad-viewer.html#convert)
+
+<br>
+
+<a id="praxis"></a>
+<p align="center"><sub><b>NEU · AUS DER PRAXIS</b></sub></p>
+<h2 align="center">Jeden Dienstag eine Funktion</h2>
+
+**EFA CAMverse kompakt** – kurz und praxisnah, auf LinkedIn und auf der Website mit Video. Die Serie im Überblick:
+
+| Folge | Thema | Termin |
+|---|---|---|
+| 01 | [Gerber + Koordinaten = Gerber X3](https://efacamverse.lebert.ai/praxis-01-gerber-x3.html) | Di, 29. September 2026 |
+| 02 | Vollbestückung oder Kundenvariante? | ab Di, 6. Oktober 2026 |
+| 03 | Der Bestückplan im Detail: Beschriftung und Lagen | ab Di, 13. Oktober 2026 |
+| 04 | Durchblick in 3D und durch alle Lagen | ab Di, 20. Oktober 2026 |
+| 05 | Aus ODB++ direkt zur Einkaufsliste | ab Di, 27. Oktober 2026 |
+| 06 | DXF-Export aus jedem Format | ab Di, 3. November 2026 |
+
+→ [Die Serie auf der Website](https://efacamverse.lebert.ai/#praxis)
 
 <br>
 
@@ -121,18 +161,18 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
   <tr>
     <td align="center" valign="top"><br><img src="assets/feat_components.png" width="48" alt=""><br><br><b>Bestückung &amp; Varianten</b><br>Bestückungsansichten flexibel erstellen – Bauteile passend zur Kundenvariante per Klick ein- und ausblenden, Beschriftung frei wählbar.<br><br></td>
     <td align="center" valign="top"><br><img src="assets/feat_x3.png" width="48" alt=""><br><br><b>Gerber X/X2 + Koordinaten = X3</b><br>Klassische Gerber-Daten um externe Koordinatendaten ergänzen – EFA CAMverse führt beides zu Gerber X3 (für die Bestückung) zusammen.<br><br></td>
-    <td align="center" valign="top"><br><img src="assets/feat_exportfile.png" width="48" alt=""><br><br><b>Export &amp; Fertigen</b><br>Für die Fertigung exportieren: Bilder als PDF, PNG oder JPG, Koordinaten und BoM als CSV.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_exportfile.png" width="48" alt=""><br><br><b>Export &amp; Fertigen</b><br>Für die Fertigung exportieren: Bilder als PDF, PNG oder JPG, Koordinaten und BoM als CSV oder Excel.<br><br></td>
   </tr>
   <tr>
     <td align="center" valign="top"><br><img src="assets/feat_measure.png" width="48" alt=""><br><br><b>Messen &amp; Inspizieren</b><br>Präzise Abstands- und Geometriemessung – mit Hüllrechteck und Mittelpunkt jeder Komponente.<br><br></td>
-    <td align="center" valign="top"><br><img src="assets/feat_export.png" width="48" alt=""><br><br><b>Formate wandeln &amp; GenCAD</b><br>Eingelesene Daten als GenCAD 1.4 weitergeben – echte Konvertierung, nicht nur Anzeige.<br><br></td>
+    <td align="center" valign="top"><br><img src="assets/feat_export.png" width="48" alt=""><br><br><b>Formate wandeln: GenCAD &amp; DXF</b><br>Eingelesene Daten als GenCAD 1.4 oder DXF weitergeben – echte Konvertierung, nicht nur Anzeige.<br><br></td>
     <td align="center" valign="top"><br><img src="assets/feat_offline.png" width="48" alt=""><br><br><b>Offline &amp; nativ</b><br>Native Windows-Anwendung – keine Cloud, kein Upload. Ihre Fertigungsdaten bleiben lokal.<br><br></td>
   </tr>
 </table>
 
 <br>
 
-<p align="center"><sub><b>NEU · BESTÜCKDRUCK &amp; VARIANTEN</b></sub></p>
+<p align="center"><sub><b>BESTÜCKDRUCK &amp; VARIANTEN</b></sub></p>
 <h2 align="center">Bestückdruck &amp; Varianten</h2>
 
 **Bestückdruck selbst erzeugen – so, wie die Fertigung ihn braucht.** EFA CAMverse zeigt keinen gelieferten Bestückplan an, sondern zeichnet ihn aus den Daten selbst – Bauteil für Bauteil. Genau deshalb lässt sich die Variante Ihres Kunden wirklich abbilden: Was nicht bestückt wird, erscheint gar nicht erst.
@@ -144,15 +184,17 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 <p align="center"><sub><b>Vollbestückung</b> &nbsp;⇄&nbsp; <b>Kundenvariante</b> – abgewählte Bauteile verschwinden vollständig</sub></p>
 
 - **Variantenhandling:** Komponenten per Klick ab- und wieder anwählen – abgewählte Bauteile verschwinden vollständig, mit Gehäuse, Pads und Beschriftung. Aus der gelieferten Vollbestückung wird so die Variante des Kunden, in 2D wie in 3D.
-- **Beschriftung, selektiv:** Jedes Bauteil wird automatisch mit seiner Referenz beschriftet – Testpunkte, Passermarken oder ganze Gruppen blenden Sie per Namensmuster aus. Schriftart und Schriftgröße wählen Sie frei.
+- **Beschriftung nach Ihren Regeln:** Jedes Bauteil wird automatisch beschriftet – mit Referenz, Wert, Gehäuse oder Artikelnummer, für alle Bauteile oder je Bauteiltyp. Einzelne Beschriftungen verschieben und drehen Sie von Hand; Testpunkte, Passermarken oder ganze Gruppen blenden Sie per Namensmuster aus.
 - **Farben nach Ihrer Vorgabe:** Platinenfläche, Rand, Gehäuse, Pads, Pin-1-Marker und Beschriftung haben je eine eigene Farbe – Pads, Pin-1 und Beschriftung lassen sich auch ganz abschalten.
 - **Lage dazublenden:** Jede beliebige Lage – etwa Lötstopp oder Bohrbild – legen Sie farbig und transparent über den Bestückdruck.
 - **Beide Seiten:** Ober- und Unterseite als jeweils eigene Bestückungsansicht.
-- **Ausgabe:** Bestückplan, Koordinatendaten und Stückliste für die Fertigung exportieren.
+- **Ausgabe:** Bestückplan, Koordinatendaten und Stückliste für die Fertigung exportieren – die Stückliste mit jedem Bauteilattribut der Quelldaten, als CSV oder Excel.
+
+→ [Alles zum Bestückdruck](https://efacamverse.lebert.ai/assembly-drawing.html) · [Alles zu Stückliste & Angebot](https://efacamverse.lebert.ai/bom-export.html)
 
 <br>
 
-<p align="center"><sub><b>NEU · 3D-ANSICHT</b></sub></p>
+<p align="center"><sub><b>3D-ANSICHT</b></sub></p>
 <h2 align="center">3D-Ansicht</h2>
 
 **Die Leiterkarte in 3D – interaktiv und realistisch.** Ein Klick wechselt von der Lagenansicht in die räumliche Darstellung: Leiterkarte, Oberflächen und Bauteile als echtes 3D-Modell – frei dreh- und zoombar.
@@ -170,6 +212,18 @@ Das optionale **3D-Modellpaket** (KiCad-3D-Bibliotheksmodelle im VRML-Format, CC
 
 <br>
 
+<h2 align="center">Projekte &amp; EFA SmartSuite</h2>
+
+**Ein Auftrag, eine Datei.** Projekte speichern den kompletten Arbeitsstand – Lagen, Farben, Variante, Koordinaten und von Hand gesetzte Beschriftungen. Die Quelldaten reisen auf Wunsch mit, sodass Sie nur eine Datei weitergeben – für alle unterstützten Formate.
+
+**Vom CAM-Datensatz direkt zur Inspektion.** In Verbindung mit der [EFA SmartSuite](https://lebert.org/efa-manufacturing/efa-smartsuite/) erzeugt EFA CAMverse vollständig eingerichtete EFA-Projekte – ohne dass Sie Koordinatendatei, Stückliste oder Bestückdrucke von Hand übernehmen.
+
+1. **Projekt automatisch angelegt:** Koordinaten, Stückliste und die Bestückdrucke von Ober- und Unterseite werden direkt übernommen.
+2. **Inspektionsaufträge fertig eingerichtet:** für jede Seite ein Auftrag – mit genau den Bauteilen dieser Seite.
+3. **Bild hinzufügen, Inspektion starten:** Mit einem hochauflösenden Bild der Leiterplatte beginnt die automatisierte Inspektion sofort.
+
+<br>
+
 <h2 align="center">Warum EFA CAMverse</h2>
 
 <p align="center"><b>9 PCB/CAM-Formate. Eine Anwendung. Ein Workflow.</b> Ein vertrautes Bedienkonzept für jedes Format: einmal einarbeiten, dann Gerber, ODB++, KiCad und sechs weitere Formate gleich bedienen.</p>
@@ -177,7 +231,7 @@ Das optionale **3D-Modellpaket** (KiCad-3D-Bibliotheksmodelle im VRML-Format, CC
 - **Ein Bedienkonzept für alles** – einmal einarbeiten, dann jedes Format identisch bedienen: Lagen, Stackup, Messen und Export funktionieren überall gleich.
 - **Direkt nativ, ohne Umwege** – jedes Format ohne Zwischenkonvertierung öffnen und sofort arbeiten; kein Export-Import-Hin-und-Her zwischen Programmen.
 - **Formate Seite an Seite** – verschiedene Formate desselben Projekts in einer Oberfläche öffnen und gemeinsam betrachten.
-- **Brücke zwischen Formaten** – aus jedem der 9 PCB/CAM-Formate lesen und als GenCAD 1.4 weitergeben; EFA CAMverse verbindet, was sonst getrennt bleibt.
+- **Brücke zwischen Formaten** – alle 9 PCB/CAM-Formate lesen, als DXF weitergeben und aus 7 davon GenCAD 1.4 erzeugen; EFA CAMverse verbindet, was sonst getrennt bleibt.
 - **Eine Installation, ein Update** – eine Anwendung statt vieler Einzeltools pflegen: ein Update, ein Ansprechpartner, alles lokal.
 
 <br>
@@ -189,8 +243,8 @@ Das optionale **3D-Modellpaket** (KiCad-3D-Bibliotheksmodelle im VRML-Format, CC
 **Pro-Funktionen:**
 
 1. Erstellen von **Bestückungsansichten** (Ober-/Unterseite) inkl. **konfigurierbarem Bestückungsdruck**
-2. **Export**: Koordinaten & BoM als CSV, Netzliste
-3. **Konvertierungen** der PCB/CAM-Formate
+2. **Export**: Koordinaten & BoM als CSV oder Excel, Netzliste
+3. **Konvertierungen** der PCB/CAM-Formate – GenCAD 1.4 und DXF
 4. … und vieles mehr
 
 <br>
