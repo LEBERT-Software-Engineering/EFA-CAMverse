@@ -6,8 +6,6 @@ version shown in *Help → About* (the product is marketed as "EFA CAMverse 2026
 
 Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – je Eintrag auf Englisch und Deutsch.
 
-## [Unreleased]
-
 ## [3.7.2]
 
 ### English
@@ -196,7 +194,6 @@ Erste auf GitHub veröffentlichte Version. Highlights des aktuellen Funktionsumf
 
 Ältere Versionen wurden nicht auf GitHub geführt.
 
-[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.2...HEAD
 [3.7.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.0...v3.7.2
 [3.7.0]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.6.2...v3.7.0
 [3.6.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.4...v3.6.2
