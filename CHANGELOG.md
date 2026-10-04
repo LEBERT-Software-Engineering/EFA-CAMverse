@@ -8,6 +8,33 @@ Alle wesentlichen Änderungen an **EFA CAMverse** werden hier festgehalten – j
 
 ## [Unreleased]
 
+## [3.7.2]
+
+### English
+
+- **Extended panel support:** rotated and nested panels appear complete with all components on top and bottom – on
+  screen and in every export. The component list and netlist follow when you switch between single board and panel.
+- **Uniform rotation angles:** coordinate lists and exports give the rotation angles of all formats according to one
+  convention.
+- **Netlist:** now also from KiCad 10 files; ODB++ and IPC-2581 supply it even more completely.
+- **GenCAD export for EFA SmartSuite extended:** through-hole components from Gerber data with their pins, component
+  outlines in component orientation, pads with shape and orientation, pin-1 marking from the source data.
+- **DXF export of panels** now also contains the components of every single board.
+- Many detail improvements and fixes.
+
+### Deutsch
+
+- **Mehrfachnutzen ausgebaut:** gedrehte und verschachtelte Nutzen erscheinen vollständig mit allen Bauteilen auf
+  Ober- und Unterseite – in der Anzeige und in jedem Export. Bauteil- und Netzliste wechseln mit, wenn Sie zwischen
+  Einzelschaltung und Nutzen umschalten.
+- **Einheitliche Drehwinkel:** Koordinatenlisten und Exporte geben die Drehwinkel aller Formate nach einer
+  Konvention aus.
+- **Netzliste:** jetzt auch aus KiCad-10-Dateien; ODB++ und IPC-2581 liefern sie noch vollständiger.
+- **GenCAD-Export für EFA SmartSuite erweitert:** bedrahtete Bauteile aus Gerber-Daten mit ihren Anschlüssen,
+  Bauteilumrisse in Bauteilausrichtung, Pads mit Form und Ausrichtung, Pin-1-Kennzeichnung aus den Quelldaten.
+- **DXF-Export von Nutzen** enthält jetzt auch die Bauteile jeder Einzelschaltung.
+- Dazu viele Detailverbesserungen und Fehlerbehebungen.
+
 ## [3.7.0]
 
 ### English
@@ -169,7 +196,8 @@ Erste auf GitHub veröffentlichte Version. Highlights des aktuellen Funktionsumf
 
 Ältere Versionen wurden nicht auf GitHub geführt.
 
-[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.0...HEAD
+[Unreleased]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.2...HEAD
+[3.7.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.7.0...v3.7.2
 [3.7.0]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.6.2...v3.7.0
 [3.6.2]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.5.4...v3.6.2
 [3.5.4]: https://github.com/LEBERT-Software-Engineering/EFA-CAMverse/compare/v3.2.1...v3.5.4
