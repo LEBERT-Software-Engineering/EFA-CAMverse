@@ -138,7 +138,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 | Folge | Thema | Termin |
 |---|---|---|
 | 01 | [Gerber + Koordinaten = Gerber X3](https://efacamverse.lebert.ai/praxis-01-gerber-x3.html) | Di, 29. September 2026 |
-| 02 | Vollbestückung oder Kundenvariante? | ab Di, 6. Oktober 2026 |
+| 02 | [Bestückplan nach Stückliste erstellen](https://efacamverse.lebert.ai/praxis-02-bestueckplan-stueckliste.html) | Di, 6. Oktober 2026 |
 | 03 | Der Bestückplan im Detail: Beschriftung und Lagen | ab Di, 13. Oktober 2026 |
 | 04 | Durchblick in 3D und durch alle Lagen | ab Di, 20. Oktober 2026 |
 | 05 | Aus ODB++ direkt zur Einkaufsliste | ab Di, 27. Oktober 2026 |

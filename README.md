@@ -138,7 +138,7 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 | Episode | Topic | Date |
 |---|---|---|
 | 01 | [Gerber + coordinates = Gerber X3](https://efacamverse.lebert.ai/en/praxis-01-gerber-x3.html) | Tue, 29 September 2026 |
-| 02 | Full assembly or customer variant? | from Tue, 6 October 2026 |
+| 02 | [Create the assembly plan from the BOM](https://efacamverse.lebert.ai/en/praxis-02-bestueckplan-stueckliste.html) | Tue, 6 October 2026 |
 | 03 | The assembly plan in detail: labels and layers | from Tue, 13 October 2026 |
 | 04 | Seeing through in 3D and all layers | from Tue, 20 October 2026 |
 | 05 | From ODB++ straight to the shopping list | from Tue, 27 October 2026 |
