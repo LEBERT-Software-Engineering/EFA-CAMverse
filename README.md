@@ -190,7 +190,7 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 - **Both sides:** top and bottom, each as its own assembly view.
 - **Output:** export the assembly plan, coordinate data and bill of materials for production – the bill of materials with every component attribute of the source data, as CSV or Excel.
 
-→ [All about the assembly drawing](https://efacamverse.lebert.ai/en/assembly-drawing.html) · [All about BoM & quotation](https://efacamverse.lebert.ai/en/bom-export.html)
+→ [All about the assembly drawing](https://lebert.ai/en/efa-camverse-assembly-drawing.html) · [All about BoM & quotation](https://lebert.ai/en/efa-camverse-bom-export.html)
 
 <br>
 

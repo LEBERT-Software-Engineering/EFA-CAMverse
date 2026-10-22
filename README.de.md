@@ -190,7 +190,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 - **Beide Seiten:** Ober- und Unterseite als jeweils eigene Bestückungsansicht.
 - **Ausgabe:** Bestückplan, Koordinatendaten und Stückliste für die Fertigung exportieren – die Stückliste mit jedem Bauteilattribut der Quelldaten, als CSV oder Excel.
 
-→ [Alles zum Bestückdruck](https://efacamverse.lebert.ai/assembly-drawing.html) · [Alles zu Stückliste & Angebot](https://efacamverse.lebert.ai/bom-export.html)
+→ [Alles zum Bestückdruck](https://lebert.ai/efa-camverse-assembly-drawing.html) · [Alles zu Stückliste & Angebot](https://lebert.ai/efa-camverse-bom-export.html)
 
 <br>
 
