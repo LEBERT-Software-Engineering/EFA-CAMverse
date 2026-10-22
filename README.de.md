@@ -108,7 +108,7 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 - **Nachvollziehbar statt Blackbox:** Ein Bericht zeigt nach jedem Lauf, welche Bauteile sicher zugeordnet sind und welche nicht. Sitzt eines falsch, setzen Sie es mit zwei Klicks im Bild an die richtige Stelle.
 - **Ab jetzt wie echtes X3:** Bestückungsansichten, Varianten, Stückliste und 3D stehen zur Verfügung, als hätte der Datensatz seine Bauteile immer gekannt. Die geprüften Koordinaten geben Sie als CSV oder Excel aus – für die Maschinenprogrammierung oder zurück an den Kunden.
 
-→ [Alles zu Gerber X3](https://efacamverse.lebert.ai/praxis-01-gerber-x3.html)
+→ [Alles zu Gerber X3](https://lebert.ai/efa-camverse-praxis-01-gerber-x3.html)
 
 <br>
 
@@ -137,11 +137,11 @@ Den Hash mit der `SHA256SUMS.txt` des Releases vergleichen.
 
 | Folge | Thema | Termin |
 |---|---|---|
-| 01 | [Gerber + Koordinaten = Gerber X3](https://efacamverse.lebert.ai/praxis-01-gerber-x3.html) | Di, 29. September 2026 |
-| 02 | [Bestückplan nach Stückliste erstellen](https://efacamverse.lebert.ai/praxis-02-bestueckplan-stueckliste.html) | Di, 6. Oktober 2026 |
-| 03 | Der Bestückplan im Detail: Beschriftung und Lagen | ab Di, 13. Oktober 2026 |
-| 04 | Durchblick in 3D und durch alle Lagen | ab Di, 20. Oktober 2026 |
-| 05 | Aus ODB++ direkt zur Einkaufsliste | ab Di, 27. Oktober 2026 |
+| 01 | [Gerber + Koordinaten = Gerber X3](https://lebert.ai/efa-camverse-praxis-01-gerber-x3.html) | Di, 29. September 2026 |
+| 02 | [Bestückplan nach Stückliste erstellen](https://lebert.ai/efa-camverse-praxis-02-bestueckplan-stueckliste.html) | Di, 6. Oktober 2026 |
+| 03 | [Beschriftung, wie die Fertigung sie braucht](https://lebert.ai/efa-camverse-praxis-03-bestueckplan.html) | Di, 13. Oktober 2026 |
+| 04 | [Netzliste und 3D-Ansicht](https://lebert.ai/efa-camverse-praxis-04-netzliste-3d.html) | Di, 20. Oktober 2026 |
+| 05 | Mit der CAM-Datei direkt zur Einkaufsliste | ab Di, 27. Oktober 2026 |
 | 06 | DXF-Export aus jedem Format | ab Di, 3. November 2026 |
 
 → [Die Serie auf der Website](https://efacamverse.lebert.ai/#praxis)

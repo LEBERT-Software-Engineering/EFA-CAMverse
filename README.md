@@ -108,7 +108,7 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 - **Traceable, not a black box:** after every run a report shows which components were assigned reliably and which were not. If one sits wrong, you move it with two clicks in the image.
 - **Just like real X3 from now on:** assembly views, variants, bill of materials and 3D are available, as if the data set had always known its components. The verified coordinates go out as CSV or Excel – for machine programming or straight back to your customer.
 
-→ [All about Gerber X3](https://efacamverse.lebert.ai/en/praxis-01-gerber-x3.html)
+→ [All about Gerber X3](https://lebert.ai/en/efa-camverse-practice-01-gerber-x3.html)
 
 <br>
 
@@ -137,11 +137,11 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 
 | Episode | Topic | Date |
 |---|---|---|
-| 01 | [Gerber + coordinates = Gerber X3](https://efacamverse.lebert.ai/en/praxis-01-gerber-x3.html) | Tue, 29 September 2026 |
-| 02 | [Create the assembly plan from the BOM](https://efacamverse.lebert.ai/en/praxis-02-bestueckplan-stueckliste.html) | Tue, 6 October 2026 |
-| 03 | The assembly plan in detail: labels and layers | from Tue, 13 October 2026 |
-| 04 | Seeing through in 3D and all layers | from Tue, 20 October 2026 |
-| 05 | From ODB++ straight to the shopping list | from Tue, 27 October 2026 |
+| 01 | [Gerber + coordinates = Gerber X3](https://lebert.ai/en/efa-camverse-practice-01-gerber-x3.html) | Tue, 29 September 2026 |
+| 02 | [Create the assembly plan from the BOM](https://lebert.ai/en/efa-camverse-practice-02-assembly-plan-bom.html) | Tue, 6 October 2026 |
+| 03 | [Labels the way production needs them](https://lebert.ai/en/efa-camverse-practice-03-assembly-plan.html) | Tue, 13 October 2026 |
+| 04 | [Netlist and 3D view](https://lebert.ai/en/efa-camverse-practice-04-netlist-3d.html) | Tue, 20 October 2026 |
+| 05 | With the CAM file straight to the shopping list | from Tue, 27 October 2026 |
 | 06 | DXF export from every format | from Tue, 3 November 2026 |
 
 → [The series on the website](https://efacamverse.lebert.ai/#praxis)
