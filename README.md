@@ -125,7 +125,7 @@ Compare the hash with `SHA256SUMS.txt` of the release.
 
 **GenCAD – the language of your production machines.** In-circuit testers, flying probe and AOI systems or placement machines often expect GenCAD for programming. EFA CAMverse creates GenCAD 1.4 from 7 of the 9 formats – Gerber (also with coordinate data), ODB++, IPC-2581, EAGLE, KiCad, PADS and GenCAD itself – with outline, components, pads, drill holes and, where available, nets; optionally with only the components of the customer variant.
 
-→ [All about the DXF export](https://efacamverse.lebert.ai/en/dxf-export.html) · [All about the GenCAD export](https://efacamverse.lebert.ai/en/gencad-viewer.html#convert)
+→ [All about the DXF export](https://lebert.ai/en/efa-camverse-dxf-export.html) · [All about the GenCAD export](https://lebert.ai/en/efa-camverse-gencad-viewer.html#convert)
 
 <br>
 
